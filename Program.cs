@@ -168,6 +168,14 @@ namespace Delegates
             {
                 Console.WriteLine(mf.Name);
             }
+
+
+            // Events
+            EventExample obj = new EventExample();
+
+            // Ensure the event is not null before invoking it
+           
+              Console.WriteLine(obj.OnMyEvent("Al", "Amin"));
            
             Console.ReadKey();
         }
